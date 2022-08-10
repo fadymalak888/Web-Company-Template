@@ -1,0 +1,86 @@
+/****start default theme****/
+
+.option-box .color-option,
+.option-box .gear-check,
+.carousel-indicators .active{
+  
+    border: 1px solid #e426d5 ;
+
+}
+
+
+.dropdown-menu{
+   border-top: 2px solid #e426d5;
+}
+
+.option-box .gear-check{
+    border: 1px solid transparent;
+    font-size: 26px;
+    border-radius: 50%;
+}
+.option-box .gear-check{
+    background-color: transparent
+}
+
+.navbar-inverse .navbar-nav >.active > a, 
+.navbar-inverse .navbar-nav >.active >a:hover
+.navbar-inverse .navbar-nav >.active >a:focus,
+.dropdown-menu >li >a:hover,
+.dropdown-menu >li >a :focus,
+.dropdown-menu .divider,
+.carousel-indicators .active{
+   background-color: #e426d494
+}
+
+
+
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.testimonials span,
+.footer h3{
+    color: #e426d5
+}
+
+
+
+.testimonials .carousel-indicators li .active{
+    border: 3px solid #e426d5
+}
+.footer .copyright span{
+color: #e426d5
+}
+.letter {
+    color: #e426d5 !important;
+}
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #e426d5;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+/*** end d theme***/

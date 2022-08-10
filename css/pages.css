@@ -1,0 +1,149 @@
+/*start about us */
+.breadcrumb-holder{
+    background-color:#f5f5f5 ;
+    
+}
+.breadcrumb {
+
+    padding-top: 9px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin-top: 57px;
+
+}
+.breadcrumb-holder{
+    background-color: transparent
+}
+/*end about us */
+
+/*start features*/
+.about-features{
+    padding-top: 100px ;
+    padding-bottom: 120px 
+}
+.about-features h3
+{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.49);
+}
+.about-features p{
+    font-family: initial;
+    line-height: 1.6;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.36);
+}
+.about-ceo{
+    background-color: #eee ; 
+    padding top: 40px ;
+    line-height: 1.8
+}
+.about-ceo .btn-primary
+{
+    background-color: #333 ; 
+    border: 1px solid #333
+}
+.about-us h1{
+    font-size: 36px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold
+}
+.about-ceo h2{
+    font-family: 'Poiret One', cursive;
+    padding-top: 17%;
+    font-size: 31px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.about-ceo p{
+    font-family: initial;
+    line-height: 2;
+    padding-top: 11px;
+    color: rgb(110, 110, 110);
+    font-size: 15px;
+    font-size: 19px;
+    text-align: center;
+}
+.about-us p {
+    line-height: 2.1;
+    font-size: 23px;
+    margin-bottom: 45px;
+    font-family: 'Poiret One', cursive;
+    color: #636363;
+    font-weight: bold;
+}
+.about-us img{
+    width: 100%
+}
+/*end features*/
+
+/*start faq */
+.faq{
+    padding: 40px 0;
+}
+.faq h1{
+    font-size: 36px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+}
+.faq h1~ hr{
+    width: 70%; 
+    
+}
+.FAQ-question{
+padding-bottom: 66px;
+    height: 527px;
+}
+.FAQ h1{
++9
+}
+.FAQ p{
+        font-family: 'Poiret One', cursive;
+    line-height: 2.1;
+    font-size: 23px;
+    margin-bottom: 45px;
+    color: #000000;
+}
+}
+.FAQ-question .panel-heading a:after {
+    content: 
+    float: right ;
+    color: #444
+}
+.FAQ-question .panel-heading a.collapsed:after {
+    content: 
+}
+#scroll-top {
+    width: 53px;
+    height: 34px;
+    color: #ddd;
+    background-color: #777;
+    text-align: center;
+    position: fixed;
+    bottom: 16px;
+    right: 15px;
+    z-index: 9999;
+    cursor: pointer;
+    border-radius: 13px;
+    display: none;
+}
+.about-features i{
+    transition: all .5s ease-in-out
+}
+.about-features i:hover{
+    background-color: rgba(226, 77, 77, 0.97);
+    color: #fff;
+    border-radius: 50%;
+    padding: 11px;
+}
+.about-ceo .btn-primary{
+    background-color: #333;
+    border: 1px solid #333;
+    margin-left: 43%;
+    margin-top: 9px;
+}
+/*end faq*/

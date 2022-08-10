@@ -1,0 +1,493 @@
+/*tart very small*/
+
+@media screen and (max-width: 430px ){
+                .our_team .person {
+                    margin-bottom: 40px;
+                    width: 80%;
+                    margin-left: 15%;
+                    max-height: 471px;
+                }
+                .about-ceo .btn-primary {
+                    background-color: #333;
+                    border: 1px solid #333;
+                    margin-left: 43%;
+                    margin-top: 9px;
+                    margin-bottom: 39px;
+                }
+
+                .our_team .team .person .img{
+                    display: none
+                }
+                .our_team h1{
+                    margin-bottom: 29px 
+                }
+                .person p {
+                    line-height: 1.2;
+                    color: #eee;
+                    font-family: serif;
+                    font-size: 15px;
+                }
+                .our_team .person{
+                    max-height: 254px !important
+                }     
+                .btn-danger{
+                   padding-left: 5px;
+                    border-radius: 6% !important;
+                }
+                .bt{    
+                    width: 100% !important ;
+                    margin-left: 0 !important ;
+                }
+                .footer-new h3{
+                    font-size: 15px ; 
+                    font-weight: bold
+                }
+    .footer-new ul li a{
+        line-height: 2
+    }
+    .footer-f{
+        margin-left: -39px;
+    }
+    .kkk{
+        max-height: 200px !important
+    }
+    .about-us p{
+        line-height: 1.8
+    }
+    .about-ceo h2{
+          padding-top: 17px !important
+    }
+
+}   
+@media screen and (max-width: 771px){
+.navbar {
+        background-color: transparent
+    }
+    .third, .fourth{
+        transform: translateX(0) !important
+    }
+.option-box .gear-check{
+        display: none
+    }
+.navbar-inverse .navbar-collapse{
+    border-color: #101010;
+    font-weight: bold;
+    background-color: rgba(3,3,3,0.2);
+    color: #fff !important;
+    float: right;
+    text-align: center;
+    border-top: 1px solid #f00;
+    }
+.nav .dropdown{
+        display: none
+    }
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #f00;
+  height: 1px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+.navbar-inverse .navbar-toggle {
+        border: none;
+    }
+.navbar-inverse .navbar-toggle .icon-bar{
+        background-color: #000
+    }
+    .navbar-inverse .navbar-toggle{
+                transition: all .3s ease-in-out
+    }
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+     background-color: transparent ;
+        border: 1px solid #000
+    }
+.about h1 {
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    margin-top: 79px;
+    min-width: 47%;
+    width: 94%;
+    margin-left: 6%;
+}
+.bm{
+    width: 32%;
+    margin-left: 6%;
+    margin-top: 7px;
+    border-radius: 10px;
+    min-width: 32%;
+    overflow: hidden;
+    }
+    .price_table .price_box {
+    background: #fff;
+    padding: 22px;
+    border: 2px solid #ccc;
+    padding-bottom: 48px;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    width: 90%;
+    margin-left: 7%;
+    margin-bottom: 40px;
+    animation-duration: .5s !important;
+    animation-name: fadeInUp;
+    min-width: 172px;
+    max-height: 465px;
+    }
+.price_table .price_box ul{
+    font-size: 14px;
+    line-height: 1.4;
+
+    }
+    .price_table .price_box h2{
+        font-size: 18px 
+    }
+    .price_table .size:first-child p{
+    width: 82px;
+    height: 82px;
+    line-height: 73px;
+    }
+.price_table .size:nth-child(2) p,
+.price_table .size:nth-child(3) p,
+.price_table .size:last-child p{
+    width: 82px;
+    height: 82px;
+    line-height: 73px;   
+    }
+.btn-danger{
+        width: 72%
+    }
+    .carousel-inner>.item{
+        height: 71px;
+    }
+.about {
+    padding-top: 512px;
+    padding-bottom: 77px;
+}
+.testimonials .carousel-indicators li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: none;
+    margin-left: 15vh;
+}
+.testimonials .carousel-indicators{
+        
+     display: none
+}
+.testimonials h1{
+    margin-bottom: 34px;  
+    padding-bottom: 20px;
+    margin-top: -12px;
+    padding-top: 12px;
+    width: 80%;
+    margin-left: 10%;
+
+    }
+.carousel-inner>.item.active{
+   margin-bottom: 35px;
+    }  
+.testimonials span{
+     font-family: 'Poiret One', cursive;
+    font-weight: 700;
+    letter-spacing: 2px;   
+}
+    
+.our_team .team .person .img{
+    padding-bottom: 44px;
+    margin-left: 35%;
+    }
+    .ff{
+            margin-left: -31%;  
+    }
+.our_team .team {
+    background: rgba(2,2,2,0.5);
+    color: #fff;
+    min-height: 729px;
+    padding-top: 10px;
+    margin-bottom: -71px;
+}
+.our_team .person {
+    margin-bottom: 40px;
+    width: 80%;
+    margin-left: 15%;
+    max-height: 292px !important
+}
+.subscribe .form-control {
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+    margin-left: 11%;
+    width: 80%;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    min-width: 10px;
+    margin-top: 7px;
+    width: 46%;
+}
+
+    .x{
+padding-top:  17px
+    } 
+.contact-us .fields{
+        height: 602px
+}
+    
+.bt {
+    width: 34%;
+    margin-left: 34%;
+}
+.our_team .person {
+    margin-bottom: 78px;
+    width: 80%;
+    margin-left: 15%;
+    max-height: 324px;
+}
+.our_team .team .person .img {
+    padding-bottom: 44px;
+    margin-left: 20%;
+}
+.our_team .team {
+    padding-bottom: 82px;
+}
+
+.welcom{
+         width: 100%;
+         margin-left: 0px;
+    }
+.welcom h1{
+        margin-top: 24px;
+        margin-bottom: -1px;
+}   
+
+.welcom span{
+display: block        
+}
+.second-word {
+    color: #000 !important;
+    font-weight: 100;
+    margin-top: 18px;
+    margin-bottom: -32px;
+
+    }
+.about .lead {
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: -40px;
+}
+.size {
+    display: block;
+    width: 100%;
+    margin-bottom: 13px;
+}
+.about-us p{
+        line-height: 1.8
+    }
+.about-ceo h2{
+          padding-top: 17px !important
+    }
+    .about-ceo .btn-primary{
+        margin-bottom: 19px
+    }
+}
+@media screen and (max-width: 1591px) and ( min-width:769px ){
+                        .navbar-collapse.collapse {
+                            display: block!important;
+                        }
+                        .fadycolor{
+                            transition: all .5s ease-in-out;
+                            color: #fff !important;
+                            transform: translateX(0);
+                            display: none
+                        }
+                        .nav-width{
+                            width: 100%
+                        }
+                        .first-left{
+                            color: #eee !important
+                        }
+                        .nav li .first-left{
+                             color: #eee !important;
+                            transition: all .5s ease-in-out!important;
+                        }
+                        .third{
+                            color: #fff!important ;
+                            transition: all .5s ease-in-out!important; 
+                            transform: translateX(0)!important
+                        }
+                        .fourth{
+                             color: #fff!important ;
+                             transition: all .5s ease-in-out!important; 
+                                transform: translateX(0)!important;
+                        }
+                        .navbar-inverse .navbar-nav >.active > a:hover {
+                            color: #000 !important;
+                            transition: all .5s ease-in-out!important;
+                        }
+                        .navbar-left {
+                            float: left!important;
+                            width: 500px;
+                        }
+                        .navbar-left {
+                            float: left!important;
+                            width: 500px;
+                            margin-left: 11%;
+                        }
+                        .about-ceo .btn-primary {
+                            background-color: #333;
+                            border: 1px solid #333;
+                            margin-left: 43%;
+                            margin-top: 9px;
+                            margin-bottom: 39px;
+                            }
+}
+@media screen and (max-width: 912px) and ( min-width:692px ){
+    .lead{
+        font-size: 18px !important
+    }
+
+
+    .size {
+    margin-bottom: 19px;
+        width: 100% ;
+        width: 100% ;
+    }
+    .our_team .team{
+        padding-bottom: 66px;
+    }
+    .our_team .team .person .img{
+        margin-left: 24%
+    }
+    .fff{
+        max-height: 50px;
+    }
+    .contact-us .fields {
+    margin-bottom: 1px;
+    padding-bottom: 64px;
+}
+    .carousel-caption {
+    min-height: 300px
+    
+}
+    .btn-danger{
+        margin-bottom: 10px 
+    }
+}
+@media screen and (max-width:450px ){
+.about h1 {
+    width: 100%;
+    margin-left: -15px;
+    }
+    
+
+}
+@media screen and (min-width:772px ){
+    .size{
+        width: 25% ;
+    }
+    .price_table .price_box{
+        min-height: 399px 
+    }
+}
+@media screen and (max-width:1550px )and(min-width:1199px){
+      .price_table .price_box{
+        min-height: 200px 
+    } 
+}
+@media screen and (max-width: 600px)  and ( min-width: 431px ){
+    .our_team .person {
+    margin-left: -5% !important;
+    max-height: 312px !important;
+}
+    .our_team .team img{
+            width: 72%;
+}
+    .our_team .team {
+        padding-bottom: 142px;
+    }
+}
+@media screen and (max-width: 991px)  and ( min-width: 770px ){
+    .size{
+        max-height: 326px;
+        margin-bottom: 116px;
+    }
+    .contact-us .fields{
+            margin-bottom: 0px;
+}
+    .btn-block {
+        display: block;
+        width: 100%;
+        margin-bottom: 11px;
+    }
+    .about-ceo h2 {
+    font-family: 'Poiret One', cursive;
+        padding-top: 33px;}
+
+}
+@media screen and (max-width: 1550px) and ( min-width: 991px ){
+    .price_table .price_box {
+        min-height: 428px;
+        margin-bottom: 38px;
+    }
+    .size{
+        width: 25%
+    }
+
+    .our_team .team .person .img{
+            margin-left: 33%;
+
+    }
+    .about-ceo h2 {
+    font-family: 'Poiret One', cursive;
+        padding-top: 33px;}
+    
+}
+@media screen and (max-width: 1550px) and ( min-width:1200px ){
+    .size{
+        width: 25% !important
+    }
+}
+@media screen and ( max-width:1079px ) and ( min-width:821px ){
+ .our_team .team img {
+    width: 75% !important;
+    height: 147% !important;
+    border-radius: 0% !important;
+    margin-left: 51% !important;
+}
+.our_team .team .person .img {
+    width: 246px !important;
+    border-radius: 16% !important;
+    position: relative!important;
+    height: 152px!important;
+    margin-left: 39px!important;
+    padding-bottom: 44px!important;
+}
+.our_team .person {
+    margin-bottom: 44px!important ; 
+    max-height: 300px!important;
+}   
+}
